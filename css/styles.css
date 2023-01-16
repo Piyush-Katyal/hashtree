@@ -1,0 +1,92 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.glassmorph {
+    background: rgba(255, 255, 255, 0.14);
+    border-radius: 25px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+
+#bin-tree-sys {
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+    background-image: url("../images/techimg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.tree-container {
+    margin: auto;
+    margin-top: 4%;
+    height: 87%;
+    width: 87%;
+    padding: 5px;
+    border: 1px solid;
+}
+
+.node-layer {
+    height: 25%;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+.node-container {
+    padding: 1%;
+}
+
+.node {
+    height: 0px;
+    width: 0px;
+    margin: auto;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+    background-color: rgb(59, 59, 59);
+    overflow: hidden;
+}
+
+.node h5 {
+    color: white;
+    font-weight: 100;
+    padding-top: 25%;
+}
+
+
+.node p {
+    color: rgb(182, 182, 182);
+    font-weight: 100;
+    padding-top: 10%;
+}
+
+.node input {
+    background-color: rgb(59, 59, 59);
+    color: rgb(182, 182, 182);
+    font-size: 1.8rem;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 30%;
+    width: 85%;
+    border: none;
+}
+
+.node input:focus {
+    outline: none;
+}
+
+.edge {
+    width: 100px;
+    height: 3px;
+    background-color: rgb(112, 112, 112);
+    margin-bottom: 3px;
+    position: absolute;
+}
